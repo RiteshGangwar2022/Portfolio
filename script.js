@@ -27,3 +27,9 @@
             document.body.classList.remove('active');
         }
     }
+
+    function check(){
+        
+       alert("Thanks, Message recieved , I will reply ASAP:)")
+       
+     }

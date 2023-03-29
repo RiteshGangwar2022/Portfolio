@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,34 +8,39 @@
     <title>Responsive Portfolio Website</title>
 
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
- 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+       <style>
+        *{
+            scroll-snap-type: y mandatory;
+            scroll-snap-align: start;
+        }
+       </style>
 </head>
+
 <body>
     <!-- Navbar -->
-    <header>
-        <a href="#" class="logo">Ritesh Gangwar</a>
- 
+    <header class="main">
+        <a href="#" class="logo">Ritesh_Gangwar</a>
+
         <div class="bx bx-menu" id="menu-icon"></div>
- 
+
         <ul class="navbar">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
-            <li><a href="#services">Services</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
             <div class="bx bx-moon" id="darkmode"></div>
         </ul>
     </header>
     <!-- Home -->
- 
+
     <section class="home" id="home">
         <div class="social">
-            <a href="https://github.com/RiteshGangwar2022"><i class='bx bxl-github'></i></a>
-            <a href="https://www.linkedin.com/in/ritesh-gangwar-9168b4225"><i class='bx bxl-linkedin' ></i></a>
-            <a href="#"><i class='bx bxl-behance' ></i></a>
+            <a href="https://github.com/RiteshGangwar2022" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/ritesh-gangwar-9168b4225" target="_blank"><i
+                    class='bx bxl-linkedin'></i></a>
+            <a href="#"><i class='bx bxl-behance'></i></a>
         </div>
         <div class="home-img">
             <img src="11.jpg" alt="">
@@ -42,8 +48,8 @@
         <div class="home-text">
             <span>Hello, I'm</span>
             <h1>Ritesh Gangwar</h1>
-            <h2>Frontend Developer</h2>
-            <p>I code in C++<br> I have solved around <strong>350+ DSA</strong> problems on various platform</p>
+            <h2>MERN Stack Developer</h2>
+            <p>I code in C++<br> I have solved around <strong>400+ DSA</strong> problems on various platform</p>
             <a href="https://www.linkedin.com/in/ritesh-gangwar-9168b4225" class="btn" target="_blank">Contact Me</a>
         </div>
     </section>
@@ -51,7 +57,8 @@
     <section class="about" id="about">
         <div class="heading">
             <h2>About Me</h2>
-            <span>I am 2nd year undergraduate of B.tech in computer science and engineering from <strong>Panjab University Chandigarh.</strong>(UIET)</span>
+            <span>I am 2nd year undergraduate of B.tech in computer science and engineering from <strong>Panjab
+                    University Chandigarh.</strong>(UIET)</span>
         </div>
         <!-- About Content -->
         <div class="about-container">
@@ -63,21 +70,22 @@
                 <div class="information">
                     <!-- Box 1 -->
                     <div class="info-box">
-                        <i class='bx bxs-user' ></i>
+                        <i class='bx bxs-user'></i>
                         <span>Ritesh Gangwar</span>
                     </div>
                     <!-- Box 2 -->
                     <div class="info-box">
-                        <i class='bx bxs-phone' ></i>
+                        <i class='bx bxs-phone'></i>
                         <span>+91-9548008987</span>
                     </div>
                     <!-- Box 3 -->
                     <div class="info-box">
-                        <i class='bx bxs-envelope' ></i>
+                        <i class='bx bxs-envelope'></i>
                         <span>riteshgangwar2020@gmail.com</span>
                     </div>
                 </div>
-                <a href="https://drive.google.com/file/d/1BpMKFqUPEpzF22iszpQC0Bdl6Gu0VKO6/view?usp=share_link" class="btn" target="_blank">Download Cv</a>
+                <a href="https://drive.google.com/file/d/1BpMKFqUPEpzF22iszpQC0Bdl6Gu0VKO6/view?usp=share_link"
+                    class="btn" target="_blank">Download Cv</a>
             </div>
         </div>
     </section>
@@ -93,98 +101,140 @@
                 <!-- Box 1 -->
                 <div class="bars-box">
                     <h3>C++</h3>
-                    <span>98%</span>
+                    <span>95%</span>
                     <div class="light-bar"></div>
-                    <div class="percent-bar react-bar"></div>
+                    <div class="percent-bar c-bar"></div>
                 </div>
-                <div class="bars-box">
-                    <h3>HTML</h3>
-                    <span>90%</span>
-                    <div class="light-bar"></div>
-                    <div class="percent-bar html-bar"></div>
-                </div>
-                <!-- Box 2 -->
-                <div class="bars-box">
-                    <h3>CSS</h3>
-                    <span>84%</span>
-                    <div class="light-bar"></div>
-                    <div class="percent-bar css-bar"></div>
-                </div>
-                <!-- Box 3 -->
                 <div class="bars-box">
                     <h3>JavaScript</h3>
-                    <span>80%</span>
+                    <span>85%</span>
                     <div class="light-bar"></div>
                     <div class="percent-bar js-bar"></div>
                 </div>
+                <!-- Box 2 -->
                 <div class="bars-box">
-                    <h3>BootStrap</h3>
+                    <h3>React</h3>
+                    <span>80%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar react-bar"></div>
+                </div>
+                <!-- Box 3 -->
+                <div class="bars-box">
+                    <h3>NodeJs</h3>
+                    <span>80%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar node-bar"></div>
+                </div>
+                <div class="bars-box">
+                    <h3>MongoDB</h3>
                     <span>85%</span>
                     <div class="light-bar"></div>
                     <div class="percent-bar js-bar"></div>
                 </div>
                 <div class="bars-box">
-                    <h3>React.JS</h3>
-                    <span>90%</span>
+                    <h3>Express</h3>
+                    <span>85%</span>
                     <div class="light-bar"></div>
                     <div class="percent-bar js-bar"></div>
                 </div>
                 <!-- Box 4 -->
-                
             </div>
             <div class="skills-img">
                 <img src="123.png" alt="">
             </div>
         </div>
- 
-    <section class="portfolio" id="portfolio">
-        <div cltent">
-            <dass="heading">
+    </section>
+
+    <div class="portfolio" id="portfolio">
+        <div class="heading">
             <h2>Portfolio</h2>
             <span>Our Recent Work</span>
         </div>
-        <div class="portfolio-coniv class="portfolio-img">
-                <img src="blog-2.png" alt="">
-            </div>   
+        <div class="container">
+            <div class="item" id="one">
+                <div class="image">
+                    <a href="https://amazonclone-awou.onrender.com" target="_blank"><img src="./amazon.png"
+                            alt="Amazon"></a>
+
+                </div>
+                <h3>Amazon_Clone</h3>
+            </div>
+            <div class="item" id="two">
+                <div class="image">
+                    <a href="https://mrprochef.netlify.app" target="_blank" rel="noopener noreferrer"><img
+                            src="./chef.png" alt="recipe provider"></a>
+                </div>
+                <h3>Mr.Chef</h3>
+            </div>
+            <div class="item" id="three">
+                <div class="image">
+                    <a href="https://golden-daifuku-2411ff.netlify.app/" target="_blank"><img src="./movie.png"
+                            alt="todolist"></a>
+                </div>
+                <h3>Movie_Provider</h3>
+            </div>
+
+
+            <div class="item" id="four">
+                <div class="image">
+                    <a href="https://aquamarine-clafoutis-353d4c.netlify.app/" target="_blank"><img src="./food.png"
+                            alt="todolist"></a>
+                </div>
+                <h3>Foody</h3>
+            </div>
+            <div class="item" id="five">
+                <div class="image">
+                    <a href="https://prismatic-churros-710a89.netlify.app" target="_blank"><img src="./todolist.png"
+                            alt="todolist"></a>
+                </div>
+                <h3>Todolist_App</h3>
+            </div>
+            <div class="item" id="six">
+                <div class="image">
+                    <a href="https://riteshgangwar2022.github.io/Google-keep-clone/" target="_blank"><img
+                            src="./googlekeepclone.png" alt="todolist"></a>
+                </div>
+                <h3>GoogleKeepClone</h3>
+            </div>
         </div>
-         <div class="portfolio-coniv class="portfolio-img">
-                <img src="blog-20.png" alt="">
-            </div>   
-        </div>
-    </section>
+    </div>
     <!-- Contact -->
-    <section class="contact" id="contact">
-        <div class="heading">
-            <h2>Contact</h2>
-            <span>Connect With Us</span>
+    <div class="last">
+        <section class="contact" id="contact">
+            <div class="heading">
+                <h2>Contact</h2>
+                <span>Connect With Us</span>
+            </div>
+            <div class="contact-form">
+                <form action="">
+                    <input type="text" placeholder="Your Name">
+                    <input type="email" name="" id="" placeholder="Your Email">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Write Message Here..."></textarea>
+                    <input type="button" value="Send" class="contact-button" onclick="check()">
+
+                </form>
+                <h3 id="one"></h3>
+            </div>
+        </section>
+        <!-- Footer -->
+        <div class="footer">
+            <h2>Ritesh Gangwar</h2>
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/ritesh-gangwar-9168b4225" target="_blank"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+            </div>
+
         </div>
-        <div class="contact-form">
-            <form action="">
-                <input type="text" placeholder="Your Name">
-                <input type="email" name="" id="" placeholder="Your Email">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Write Message Here..."></textarea>
-                <input type="button" value="Send" class="contact-button">
-            </form>
+        <!-- Copyright -->
+        <div class="copyright">
+            <p>Create By <a href="https://www.linkedin.com/in/ritesh-gangwar-9168b4225" target="_blank">Ritesh Gangwar
+                </a> | All Right Reserved.</p>
         </div>
-    </section>
-    <!-- Footer -->
-    <div class="footer">
-        <h2>Ritesh Gangwar</h2>
-        <div class="footer-social">
-            <a href="https://www.linkedin.com/in/ritesh-gangwar-9168b4225" target="_blank"><i class='bx bxl-linkedin' ></i></a>
-            <a href="#"><i class='bx bxl-instagram' ></i></a>
-            <a href="#"><i class='bx bxl-facebook' ></i></a>
-        </div>
- 
     </div>
-    <!-- Copyright -->
-    <div class="copyright">
-        <p>Create By <a href="https://www.linkedin.com/in/ritesh-gangwar-9168b4225" target="_blank">Ritesh Gangwar </a> | All Right Reserved.</p>
-    </div>
- 
- 
- 
     <!-- Link To JS -->
     <script src="script.js"></script>
 </body>
+
 </html>
